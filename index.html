@@ -1,0 +1,231 @@
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vince Capin | Software Engineer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;500;700&family=IBM+Plex+Sans:wght@300;400;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-main text-primary">
+    <div class="circuit-grid"></div>
+    
+    <nav class="nav-rail">
+        <div class="nav-content">
+            <div class="status-indicator">
+                <span class="dot pulse"></span>
+                <span class="status-text">SYSTEM ONLINE</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#hero" class="nav-link active" data-label="BOOT">00_BOOT</a></li>
+                <li><a href="#experience" class="nav-link" data-label="LOGS">01_LOGS</a></li>
+                <li><a href="#projects" class="nav-link" data-label="BUILD">02_BUILD</a></li>
+                <li><a href="#skills" class="nav-link" data-label="CORE">03_CORE</a></li>
+                <li><a href="#achievements" class="nav-link" data-label="AWARD">04_AWARD</a></li>
+                <li><a href="#contact" class="nav-link" data-label="PUSH">05_PUSH</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="content-wrapper">
+        <section id="hero" class="hero-section">
+            <div class="terminal-window">
+                <div class="terminal-header">
+                    <div class="dots">
+                        <span class="dot close"></span>
+                        <span class="dot minimize"></span>
+                        <span class="dot maximize"></span>
+                    </div>
+                    <div class="terminal-title">bash — vince@capin — 80x24</div>
+                </div>
+                <div class="terminal-body" id="terminal-output">
+                    <!-- Typed content will appear here -->
+                </div>
+            </div>
+            <div class="hero-reveal hidden">
+                <h1 class="display-name">VINCE CAPIN</h1>
+                <p class="role-title">SOFTWARE ENGINEER</p>
+                <p class="summary-text">Building robust full-stack systems with a focus on clean code and system efficiency.</p>
+                <div class="hero-actions">
+                    <a href="assets/RESUME - Vince Capin.pdf" target="_blank" class="action-btn">
+                        <span class="btn-text">VIEW_RESUME.PDF</span>
+                        <span class="btn-icon">_</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience" class="section">
+            <div class="section-label">01_SYSTEM_LOGS</div>
+            <h2 class="section-title">Professional Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="item-header">
+                            <span class="timestamp">JULY 2025 - MARCH 2026</span>
+                            <h3 class="item-title">Associate Software Engineer</h3>
+                            <span class="location">Synacy, Cebu City</span>
+                        </div>
+                        <ul class="item-details">
+                            <li>Developed leave application system</li>
+                            <li>Upgraded email-sender service (Java 11 to 21, Spring Boot 2 to 3)</li>
+                            <li>Implemented invoice snapshot API with hourly/daily/weekly cost delta calculation</li>
+                            <li>Extensive work with OOP, Spring Boot, PostgreSQL, and Angular</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="item-header">
+                            <span class="timestamp">JUNE 2023 - AUGUST 2023</span>
+                            <h3 class="item-title">Web Developer Intern</h3>
+                            <span class="location">Sultan Kudarat State University</span>
+                        </div>
+                        <ul class="item-details">
+                            <li>Developed CHED Region XII portal using CodeIgniter</li>
+                            <li>Enhanced code readability and fixed critical bugs</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section">
+            <div class="section-label">02_BUILD_HISTORY</div>
+            <h2 class="section-title">Major Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3 class="project-title">Unified Digital Citizen Platform</h3>
+                        <div class="project-tags">
+                            <span>ANGULAR</span><span>IONIC</span><span>SPRING BOOT</span><span>POSTGRESQL</span>
+                        </div>
+                    </div>
+                    <p class="project-desc">Cross-platform mobile support and RESTful API backend for secure digital citizen services.</p>
+                </div>
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3 class="project-title">Solar Fish Feeder (Thesis)</h3>
+                        <div class="project-tags">
+                            <span>ESP32</span><span>ANDROID</span><span>FIREBASE</span><span>IOT</span>
+                        </div>
+                    </div>
+                    <p class="project-desc">IoT-based feeder with ultrasonic monitoring, real-time sync, and mobile scheduling.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="section">
+            <div class="section-label">03_CORE_MODULES</div>
+            <h2 class="section-title">Technical Arsenal</h2>
+            <div class="skills-container">
+                <div class="skill-category">
+                    <h4 class="category-label">LANGUAGES</h4>
+                    <div class="skill-chips">
+                        <span class="skill-chip">Java</span>
+                        <span class="skill-chip">Typescript</span>
+                        <span class="skill-chip">Python</span>
+                        <span class="skill-chip">C++</span>
+                        <span class="skill-chip">Groovy</span>
+                        <span class="skill-chip">SQL</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h4 class="category-label">FRAMEWORKS & TOOLS</h4>
+                    <div class="skill-chips">
+                        <span class="skill-chip">Spring Boot</span>
+                        <span class="skill-chip">Angular</span>
+                        <span class="skill-chip">Ionic</span>
+                        <span class="skill-chip">RESTful API</span>
+                        <span class="skill-chip">PostgreSQL</span>
+                        <span class="skill-chip">Unit Testing</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h4 class="category-label">PLATFORMS & CONCEPTS</h4>
+                    <div class="skill-chips">
+                        <span class="skill-chip">Linux</span>
+                        <span class="skill-chip">AWS</span>
+                        <span class="skill-chip">GitHub</span>
+                        <span class="skill-chip">OOP</span>
+                        <span class="skill-chip">IoT Systems</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="achievements" class="section">
+            <div class="section-label">04_VERIFIED_OUTCOMES</div>
+            <h2 class="section-title">Awards & Certifications</h2>
+            <div class="badge-grid">
+                <div class="badge-item">
+                    <div class="badge-content">
+                        <h4 class="badge-title">ICpEP Regional Programming</h4>
+                        <p class="badge-desc">1st Place (2024), 3rd Place (2025) - Java</p>
+                    </div>
+                </div>
+                <div class="badge-item">
+                    <div class="badge-content">
+                        <h4 class="badge-title">FestBot Sumobot</h4>
+                        <p class="badge-desc">2nd Place (2024)</p>
+                    </div>
+                </div>
+                <div class="badge-item">
+                    <div class="badge-content">
+                        <h4 class="badge-title">SKSU Inter-Campus Chess</h4>
+                        <p class="badge-desc">Champion (2024) - Team & Board 4</p>
+                    </div>
+                </div>
+                <div class="badge-item">
+                    <div class="badge-content">
+                        <h4 class="badge-title">CSS Technician</h4>
+                        <p class="badge-desc">Certified (Jan 2025)</p>
+                    </div>
+                </div>
+                <div class="badge-item accent">
+                    <div class="badge-content">
+                        <h4 class="badge-title">Capture The Flag</h4>
+                        <p class="badge-desc">Trend Micro & HackForGov Competitor</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <div class="section-label">05_REMOTE_PUSH</div>
+            <h2 class="section-title">System Contact</h2>
+            <div class="config-panel">
+                <div class="config-row">
+                    <span class="config-key">EMAIL</span>
+                    <span class="config-value" id="email-val">fegurovince@gmail.com</span>
+                    <button class="copy-btn" onclick="copyToClipboard('fegurovince@gmail.com', this)">COPY</button>
+                </div>
+                <div class="config-row">
+                    <span class="config-key">PHONE</span>
+                    <span class="config-value">+63 977 778 3376</span>
+                    <button class="copy-btn" onclick="copyToClipboard('+639777783376', this)">COPY</button>
+                </div>
+                <div class="config-row">
+                    <span class="config-key">LOCATION</span>
+                    <span class="config-value">Norala, Philippines</span>
+                </div>
+                <div class="config-row">
+                    <span class="config-key">GITHUB</span>
+                    <span class="config-value">github.com/Vitchhh</span>
+                </div>
+            </div>
+        </section>
+
+        <footer class="site-footer">
+            <div class="footer-line"></div>
+            <p class="footer-text">© 2026 VINCE_CAPIN</p>
+        </footer>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
