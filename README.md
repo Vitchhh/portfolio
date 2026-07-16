@@ -64,9 +64,3 @@ To personalize the portfolio, you can modify the following files:
 - **Content:** Edit the text and links in `index.html`.
 - **Terminal Sequence:** Modify the `bootSequence` array in `script.js` to change the typing animation.
 
-## License
-This project is for personal use as a portfolio template.
-
-## Contact
-- **GitHub:** [github.com/Vitchhh](https://github.com/Vitchhh)
-- **Email:** fegurovince@gmail.com
