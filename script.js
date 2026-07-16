@@ -10,7 +10,7 @@ const bootSequence = [
     { text: "whoami", type: true, delay: 1000 },
     { text: "vince_capin", delay: 500 },
     { text: "status --check", type: true, delay: 1000 },
-    { text: "Role: Software Engineer\nLocation: Cebu City\nAvailability: Ready for new connections", delay: 800 },
+    { text: "Role: Software Engineer\nLocation: Norala\nAvailability: Ready for new connections", delay: 800 },
     { text: "Boot complete. System ready.", delay: 500 },
 ];
 
